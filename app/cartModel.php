@@ -14,4 +14,5 @@ class cartModel extends Model
     public function product(){
     	return $this->belongsTo('App\produtcs_model','id');
     }
+    //inah carminah
 }
